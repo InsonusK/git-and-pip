@@ -1,2 +1,3 @@
 def sum(a, b):
-    return a+b
+    print("get sum")
+    return (a+b)*10
