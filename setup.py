@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="gitandpipins",
-    version="0.0.1",
+    version="0.0.2",
     author="Forker",
     author_email="and.capuano@gmail.com",
     description="It's pip... with git.",
