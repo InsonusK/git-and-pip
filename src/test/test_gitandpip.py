@@ -1,5 +1,6 @@
 import unittest
+from gitandpip.functions import sum
 
 class MyTestCase(unittest.TestCase):
-    def test_def_yahoo_call(self) :
-        self.assertEqual(1,1)
+    def test_call(self) :
+        self.assertEqual(sum(2,3),5)

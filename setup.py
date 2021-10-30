@@ -1,4 +1,5 @@
 import setuptools
+import os.path
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -12,7 +13,6 @@ setuptools.setup(
     long_description=long_description,
     url="https://github.com/arocketman/git-and-pip",
     packages=setuptools.find_packages(include=["gitandpip", "gitandpip2", "gitandpip2.*"]),
-    package_dir={'': 'src'},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
