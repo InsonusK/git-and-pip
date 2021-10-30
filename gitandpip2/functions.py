@@ -1,3 +1,3 @@
-def sum(a, b):
-    print("get sum")
-    return a+b
+def mult(a, b):
+    print("get mult")
+    return a*b
