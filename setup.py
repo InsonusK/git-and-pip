@@ -11,7 +11,7 @@ setuptools.setup(
     description="It's pip... with git.",
     long_description=long_description,
     url="https://github.com/arocketman/git-and-pip",
-    packages=setuptools.find_packages(include=["gitandpip*"]),
+    packages=setuptools.find_packages(include=["gitandpip2*", "gitandpip2.*"]),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
