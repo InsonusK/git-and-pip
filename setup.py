@@ -12,7 +12,7 @@ setuptools.setup(
     description="It's pip... with git.",
     long_description=long_description,
     url="https://github.com/arocketman/git-and-pip",
-    packages=["gitandpip"],
+    packages=setuptools.find_packages(where='src',include=["gitandpip", "gitandpip2", "gitandpip2.*"]),
     package_dir={'': 'src'},
     classifiers=[
         "Programming Language :: Python :: 3",
